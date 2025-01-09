@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Douban X Style",
+  "version": "1.0.0",
+  "description": "Transform Douban with X.com (Twitter) style design",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://*.douban.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.douban.com/*"],
+      "css": ["css/styles.css"],
+      "js": ["js/content.js"]
+    }
+  ],
+  "icons": {
+    "128": "images/icon128.png"
+  }
+}

@@ -1,0 +1,103 @@
+/* Base styles */
+:root {
+  --background: #000000;
+  --card-bg: #16181c;
+  --text-primary: #e7e9ea;
+  --text-secondary: #71767b;
+  --border-color: #2f3336;
+  --accent-blue: #1d9bf0;
+}
+
+body {
+  background: var(--background) !important;
+  color: var(--text-primary) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+/* Hide unnecessary elements */
+#db-nav-movie,
+#db-nav-book,
+#db-nav-music,
+.extra,
+.aside,
+#dale_anonymous_homepage_right_bottom,
+#dale_anonymous_homepage_right_middle,
+#dale_anonymous_homepage_right_top,
+.notify-mod,
+.bn-link,
+.friendlog h2,
+#friend h2 {
+  display: none !important;
+}
+
+/* Main content */
+#wrapper {
+  max-width: 600px !important;
+  margin: 20px auto !important;
+  padding: 0 16px !important;
+}
+
+/* Status updates / Posts */
+.status-item,
+.new-status {
+  background: var(--card-bg) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 16px !important;
+  padding: 16px !important;
+  margin-bottom: 16px !important;
+  transition: background 0.2s !important;
+}
+
+.status-item:hover {
+  background: #1d1f23 !important;
+}
+
+/* User avatar */
+.user-avatar {
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 50% !important;
+}
+
+/* Post content */
+.status-text {
+  color: var(--text-primary) !important;
+  font-size: 15px !important;
+  line-height: 1.5 !important;
+  margin: 12px 0 !important;
+}
+
+/* Images in posts */
+.status-item img {
+  border-radius: 16px !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin-top: 12px !important;
+}
+
+/* Interaction buttons */
+.operations {
+  display: flex !important;
+  gap: 16px !important;
+  margin-top: 12px !important;
+}
+
+.operations a {
+  color: var(--text-secondary) !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+}
+
+.operations a:hover {
+  color: var(--accent-blue) !important;
+}
+
+/* Timestamp */
+.timestamp {
+  color: var(--text-secondary) !important;
+  font-size: 14px !important;
+  margin-top: 8px !important;
+}
