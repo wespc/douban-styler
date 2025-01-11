@@ -17,11 +17,13 @@
 Open Chrome and go to chrome://extensions/.
 Enable "Developer mode" and click "Load unpacked".
 Select the cloned douban-styler folder.
-Usage
+
+## Usage
 Navigate to Douban.
 Douban Styler will automatically apply your customizations to the homepage.
-Contributing
+
+## Contributing
 We welcome any contributions! If you'd like to help develop or improve the plugin, feel free to fork the repository and submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License.
